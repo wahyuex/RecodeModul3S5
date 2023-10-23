@@ -44,7 +44,7 @@ const App = () => {
       <View>
         <Header drawer={drawer} />
         {page == "list" ? <List /> : page == "article" ? <Article /> : null}
-      </View>
+      </View>      
     </DrawerLayoutAndroid>
   );
 };
